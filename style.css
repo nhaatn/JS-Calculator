@@ -7,7 +7,9 @@
 .container {
     max-width: 400px;
     margin: 20vh auto 0 auto;
-    /* border: 1px solid red; */
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
     box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
 }
 
@@ -16,35 +18,39 @@
     height: 100px;
     line-height: 100px;
     padding: 16px 8px;
+    margin-bottom: 1.5rem;
     font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-top: 2px solid rgb(173, 173, 173);
 }
 
 .button {
-    border: 1px solid rgb(173, 173, 173);
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
     line-height: 100px;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
+    color: white;
 }
 
 .button:hover {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(136, 204, 136);
     color: white;
     transition: 0.3s ease-in-out;
 }
 
 #equal {
-    background-color: rgb(145, 202, 145);
+    background-color: rgb(206, 108, 108);
 }
 
 #equal:hover {
-    background-color: rgb(104, 170, 104);
+    background-color: rgb(197, 44, 44);
 }
