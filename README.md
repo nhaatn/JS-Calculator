@@ -1,4 +1,6 @@
-# Calculator built with vanilla JS
+# Calculator
 
 ### Odin project 3
-### [Live Demo]()
+- Basic calculator built using vanilla JavaScript
+
+### [Live Demo](https://nhaatn.github.io/JS-Calculator/)
