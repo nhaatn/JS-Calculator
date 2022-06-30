@@ -112,6 +112,9 @@ function divide(a, b) {
 
 // This function takes the OPERATOR and 2 NUMBERS and calls one of the functions above
 function operate(operator, a, b) {
+    // Convert to a number otherwise JS will concat it as String
+    a = Number(a);
+    b = Number(b);
     switch (operator) {
         case "+":
             return add(a, b);
